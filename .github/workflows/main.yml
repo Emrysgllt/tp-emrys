@@ -13,7 +13,7 @@ env:
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
   AWS_REGION: ${{ secrets.AWS_REGION }}
-  ECR_REPOSITORY_NAME: tp-emrys
+  ECR_REPOSITORY_NAME: demo-aws-app-runner
   ECR_URI: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com
 
 jobs:
